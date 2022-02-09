@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+#welcome{
+   position:absolute; 
+height: 800px;
+color:aliceblue;
+left: 0;
+top: 0;
+bottom: 0;
+right: 0;
+background: linear-gradient(#e61405 0%,#ebeb34 100%); 
+}
+#EvanMobley{
+    width: 175px;
+    margin-bottom: 50px;
+    margin-top: 200px;
+    border-radius: 50%;
+    width:400px;
+    height:300px;
+}
+h1{
+    font-size: 37px;
+}
+.menu{
+    list-style: none;
+    font-family: cursive;
+    position: absolute;
+    top:10px;
+    right:120px;
+    z-index: 10;
+    cursor: pointer;
+}
+.links{
+    float:left;
+    color: blueviolet;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-size: 20px;
+}
+.links:hover{
+    background-color:rgb(255, 255, 255);
+    font-size: 25px;
+}
+#videos{
+    background-color:yellow;
+    
+}
+#aboutme{
+    background-color: burlywood;
+}
+#interview{
+    background-color:goldenrod;
+}
